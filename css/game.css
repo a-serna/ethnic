@@ -1,0 +1,7 @@
+@font-face {font-family: 'american-typewriter', serif  !important;src: url('./fonts/american_typewriter.woff'), format('woff'), url('./fonts/american_typewriter.ttf')  format('truetype'),;}
+body{background-image: url(../img/fondo.jpg);background-size: 100vw; font-family: 'american-typewriter', serif !important; font-size: 16px; color: #132A3F !important;}
+.logo{ background-image: url(../img/logo-ethnic.png); height: 195px; background-repeat: no-repeat; background-position: center; background-size: contain;}
+h1{font-weight: 700 !important; font-size: 2.3em !important;} h2{font-size: 1.75em !important; font-weight: 700 !important;} h3{font-size: 1.125em !important; font-weight: 700 !important;} p{font-size: 1em !important;font-weight: 400 !important;} a{color: #132A3F !important; text-decoration: none !important;}
+a:hover{ color: #828282 !important; text-decoration: underline !important;}
+@media (max-width: 576px) { h1{ font-size: 1.175em !important; } h2{ font-size: 1.125em !important; font-weight: 700 !important; } h3{ font-size: 1em !important; font-weight: 700 !important; } p{ font-size: 1em !important; font-weight: 400 !important; }}
+@media (max-width: 320px) { body{ background-image: url(../img/fondo_mobile.png); background-size: 100vw; } }
