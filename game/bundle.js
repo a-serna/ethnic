@@ -528,7 +528,7 @@ PlayState.prototype.createTimer = function () {
         this.game.physics.arcade.enable(piece);
         piece.index = index;
         piece.pos = {};
-        piece.alpha = 0.03;
+        piece.alpha = 0.01;
         piece.tint= 0xeee0ca;
 
         var offsetObj = getOffsetByLvl(offsetBar, this.level);
